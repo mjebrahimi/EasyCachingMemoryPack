@@ -2,6 +2,9 @@
 using EasyCaching.Serialization.MemoryPack;
 using Microsoft.Extensions.DependencyInjection;
 
+//===== Reproduce the root cause =====
+//NET6Project.Class1.SetInitProperty();
+
 var services = new ServiceCollection();
 
 services.AddEasyCaching(options => options.WithMemoryPack());
