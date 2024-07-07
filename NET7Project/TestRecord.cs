@@ -6,6 +6,7 @@
     }
 }
 
+//Remove this #if condition to solve the issue!
 #if !NET5_0_OR_GREATER
 
 namespace System.Runtime.CompilerServices
